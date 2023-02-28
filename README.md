@@ -9,7 +9,7 @@ We provide codes combinatorial optimization problems:
 ## Evaluation
 
 ```
-python eval.py ./data/tsp_uniform50_10000.pkl --model ./output/epoch-best.pt --decode_strategy greedy --eval_batch_size 256
+python eval.py ./data/tsp_uniform50_10000.pkl --model ./output/epoch-best.pt --decode_strategy greedy --eval_batch_size 256 --change
 ```
 
 
